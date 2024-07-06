@@ -1,0 +1,74 @@
+.smallLogo {
+    width: 30px;
+}
+
+
+.columnContainer {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 3em;
+    justify-content: center;
+}
+
+
+
+.col1 h1 {
+    font-size: 2.4rem;
+    font-weight: 800; 
+    line-height: 1em;
+}
+
+
+
+.text {
+    font-weight: 600;
+}
+
+
+
+.buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.btnWhite {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+}
+
+
+.smallLogos {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+
+.firstCol {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+
+@media all and (min-width: 550px) {
+
+    .columnContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 45%));
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
+    }
+    
+}
+
+@media all and (min-width: 850px) {
+    .col1 h1 {
+        font-size: 4.4rem;
+    }
+}

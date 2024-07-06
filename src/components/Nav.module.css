@@ -1,0 +1,43 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    align-items: center;
+}
+
+button {
+    display: none;
+}
+
+.navToggle i {
+    font-size: 1.3rem;
+}
+
+nav ul {
+    display: none;
+    list-style: none;
+    color: black; 
+    gap: 1em;
+}
+
+nav ul li {
+    font-weight: 600;
+}
+
+
+
+@media all and (min-width: 500px) {
+    nav ul {
+        display: flex;
+    }
+
+    button {
+        display: inline-block; 
+    }
+
+    .navToggle{
+        display: none;
+    }
+}
