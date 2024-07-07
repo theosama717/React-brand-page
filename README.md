@@ -1,3 +1,3 @@
 # React Brand Page  
 
-click the link in description to view live website
+click the link https://brand-page-123.netlify.app to view live website
